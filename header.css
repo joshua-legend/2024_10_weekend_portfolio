@@ -1,0 +1,29 @@
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  max-width: var(--max-width--pc);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav > ul > li {
+  padding: 10px;
+  color: var(--color--secondary);
+  transition: all var(--transition--short-time);
+}
+
+nav > ul > li:hover {
+  color: var(--color--text-white);
+  background-color: var(--color--secondary);
+}
